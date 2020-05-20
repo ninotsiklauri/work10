@@ -1,0 +1,235 @@
+@font-face{
+    font-family: mtavruli;
+    src: url(font/bpg_extrasquare_mtavruli_2009.ttf);
+}
+.big{
+    border: black 1px solid;
+    margin: auto;
+    width: 900px;
+    height: 1370px;
+    border-radius: 13px;
+    position: relative;
+    background-color: rgb(240, 240, 240);
+}
+.top{
+    border: solid 1px black;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+    width: 900px;
+    height: 110px;
+    display: flex;
+}
+.topsmallleft{
+    height: 110px;
+    width: 300px;
+    background-color: rgb(101, 207, 59);
+    border-top-left-radius: 13px;
+    text-align: center;
+}
+.topsmallright{
+    height: 110px;
+    width: 600px;
+    border-top-right-radius: 13px;
+}
+.topmenu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(101, 207, 59);
+    border-top-right-radius: 13px;
+}
+.top1{
+    float: left;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 23px 16px;
+}
+.top1:hover{
+    background-color: rgb(156, 230, 127);
+}
+.font{
+    color: white;
+    font-family: mtavruli;
+    font-size: 0.9em;
+}
+.leftmenu{
+    width: 190px;
+    list-style-type: none;
+}
+.li1{
+    background-image: linear-gradient(to top, rgb(18, 98, 134), rgb(24, 138, 190));
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+}
+.li12{
+    background-image: linear-gradient(to top, rgb(21, 158, 51), rgb(77, 238, 125));
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+}
+.b{
+    border-left: black solid 5px;
+}
+.li1:hover{
+    border-left-color: rgb(101, 207, 59);
+}
+.rightmenu{
+    position: absolute;
+    width: 190px;
+    list-style-type: none;
+    right: 0px;
+    top: 377px;
+    border-top-left-radius: 15px;
+}
+.c{
+    border-top-left-radius: 15px;
+}
+.c1{
+    border-bottom: white solid 1px;
+}
+.li2{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+}
+.li2:hover{
+    background-color: grey;
+}
+.middle{
+    position: absolute;
+    height: 359px;
+    width: 500px;
+    right: 200px;
+    top: 377px;
+    background-color: white;
+}
+.middle1{
+    border-bottom: solid 2px gray;
+    height: 30px;
+    width: 500px;
+}
+.metro{
+    color: gray;
+    margin: 5px;
+    position: absolute;
+    left: 15px;
+}
+.middle2{
+    width: 498px;
+    height: 325px;
+    display: flex;
+    background-color: white;
+}
+.second{
+    position: absolute;
+    top: 38px;
+}
+.pp{
+    position: absolute;
+    left: 210px;
+}
+.middlenext{
+    position: absolute;
+    width: 500px;
+    height: 60px;
+    top: 365px;
+    background-color: white;
+    display: flex;
+}
+.comment{
+    position: absolute;
+    top: 10px;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(42, 144, 170);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.views{
+    position: absolute;
+    top: 10px;
+    left: 110px;
+    width: 70px;
+    height: 40px;
+    background-color: rgb(42, 144, 170);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.read{
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    width: 90px;
+    height: 40px;
+    background-color: rgb(21, 158, 51);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.d{
+    text-decoration: none;
+    color: white;
+}
+.middlee{
+    position: absolute;
+    height: 359px;
+    width: 500px;
+    right: 200px;
+    top: 807px;
+    background-color: white;
+}
+.bottom{
+    position: absolute;
+    bottom: 0px;
+    border-bottom-left-radius: 13px;
+    border-bottom-right-radius: 13px;
+    width: 900px;
+    height: 90px;
+    display: flex;
+    background-color: rgb(101, 207, 59);
+}
+.bottomleft{
+    position: absolute;
+    left: 0px;
+    border-bottom-left-radius: 13px;
+    width: 250px;
+    height: 90px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bottomright{
+    position: absolute;
+    right: 0px;
+    border-bottom-right-radius: 13px;
+    height: 90px;
+    width: 650px;
+}
+.bottom1{
+    float: left;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 18px 10px;
+}
+.topmenuu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(101, 207, 59);
+    border-bottom-right-radius: 13px;
+}
+.bottom1:hover{
+    background-color: rgb(156, 230, 127);
+}
